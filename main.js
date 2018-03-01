@@ -1,4 +1,7 @@
-var Accounts = [ {balance:600,firstName:"zoulfa",midName:'mohamad',lastName:'Bawab',pass:'123',accountType:'saving',accountNum:1},{balance:1100,firstName:"abdulhameed",midName:'mohamad',lastName:'abdalla',pass:'456',accountType:'saving',accountNum:2}] ;
+var Accounts = [ {balance:1300,firstName:"zoulfa",midName:'mohamad',lastName:'Bawab',pass:'123',accountType:'saving',accountNum:1}
+,{balance:700,firstName:"abdulhameed",midName:'mohamad',lastName:'abdalla',pass:'456',accountType:'saving',accountNum:2},
+{balance:300,firstName:"Ahmed",midName:'lee',lastName:'jim',pass:'123',accountType:'saving',accountNum:3},
+{balance:600,firstName:"Marck",midName:'Joe',lastName:'Pen',pass:'123',accountType:'saving',accountNum:4}] ;
 var saccountNum=0; 
  var spass='0';
 

@@ -3,8 +3,9 @@ $("#btnPush").click(function() {
 	for (var i = 0; i < Accounts.length; i++) {
 		if(Accounts[i].accountNum === saccountNum){
 			Accounts[i].balance+=sum
-			return;
+			window.open('index.html')
 		}
 	}
-	return;
+			window.open('index.html')
+	
 })
