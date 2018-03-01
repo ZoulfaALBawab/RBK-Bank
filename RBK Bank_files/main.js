@@ -1,9 +1,9 @@
-var Accounts = [ {balance:600,firstName:"zoulfa",midName:'mohamad',lastName:'Bawab',pass:'123',accountType:'saving',accountNum:1},{balance:1100,firstName:"abdulhameed",midName:'mohamad',lastName:'abdalla',pass:'456',accountType:'saving',accountNum:2}] ;
+var Accounts = [] ;
 var saccountNum=0; 
- var spass='0';
+ var x;
 
 $('body').css( {
-  'margin':'0','font-family':'Arial,Helvetica,sans-serif' , 'background' : 'url("bp.jpg")','background-repeat': 'no-repeat', 'background-size': '2000px 1200px'});
+  'margin':'0','font-family':'Arial,Helvetica,sans-serif' , 'background' : 'url("bg.jpg")' });
 $('#sobar').hide();
 $('.topnav').css({
   'overflow': 'hidden',
@@ -41,10 +41,10 @@ $('.lang').css({
  
  $('#rbk').css({
  'font-size' : '150px' , 
- 'text-shadow': 'grey',
+ 'text-shadow': '8px 8px #ff0000',
  'text-align'  : 'center',
  'font-family' : 'Times New Roman',
- 'color'  : ' brown'
+ 'color'  : ' #D2691E'
 
 })
   $('#slogan').css({
@@ -52,7 +52,7 @@ $('.lang').css({
   'text-shadow': '2px 2px #ff0000',
  'text-align'  : 'center',
  'font-family' : 'Times New Roman',
- 'color'  : ' brown'
+ 'color'  : ' #D2691E'
 
 })
 
@@ -67,22 +67,7 @@ $('#btnsu').css({
     'display': 'inline-block',
     'font-size': '25px'
 }) 
-// sign in
- $('#btnSn').click(function () {
-  saccountNum = Number($('#cn').val());
-  spass = $('#ps').val();
 
-  for (var i = 0; i < Accounts.length; i++) {
-    if(Accounts[i].accountNum === saccountNum && Accounts[i].pass === spass){
-        window.open('operaitions.html')
-        return;
-    }
-  }
-  alert("account number or password not correct")
-  return
- 
-
- })
 /*$('.topnav a ').active(function(){$(this).css( {
   'background-color': '#4CAF50',
   'color': 'white'

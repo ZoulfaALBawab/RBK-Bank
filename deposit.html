@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>RBK Bank</title>
+</head>
+<style type="text/css">
+  table {
+    border-collapse: collapse;
+    background-color: white;
+    border: 2px;
+    width: 100%;
+    border: 1px solid black;
+    
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+th{
+  background-color: #FF7F50;
+  color: black;
+}
+#tbl{
+  margin: auto;
+    width: 50%;
+   background-color:white;
+    padding: 10px;
+}
+.button {
+    background-color: #FF7F50;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+</style>
+<body>
+	<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a class="lang" href="#english">English</a>
+  
+  <a class="lang" href="arabic.html">عربي</a>
+  <a id="sibar" class="lang" href="#signin">Sign in</a>
+  <a id="sobar" class="lang"  href="#signout">Sign out</a>
+</div>
+<div id="tbl">
+<table>
+  <tr>
+    <th >Languages</th>
+    <th >Period</th>
+
+  </tr>
+  <tr>
+    <td><b>Basic Requirements</b></td>
+  </tr>
+   <tr>
+    <td>HTML</td>
+    <td>
+      <select class="days" id="htmlD">
+  
+  <option value="0">0</option>
+  <option value="10">10</option>
+  <option value="20">20</option>
+  <option value="30">30</option>
+  <option value="40">40</option>
+
+  
+</select> 
+Days
+    </td>
+  </tr>
+ <tr>
+    <td>CSS</td>
+    <td>
+          <select id="cssD"">
+  
+  <option value="0">0</option>
+  <option value="10">10</option>
+  <option value="20">20</option>
+  <option value="30">30</option>
+  <option value="40">40</option>
+
+  
+</select> 
+Days
+</td>
+  </tr>
+   <tr>
+    <td>JQUERY</td>
+    <td>
+          <select id="jqueryD">
+  
+  <option value="0">0</option>
+  <option value="10">10</option>
+  <option value="20">20</option>
+  <option value="30">30</option>
+  <option value="40">40</option>
+
+  
+</select> 
+Days
+</td>
+  </tr>
+   <tr>
+    <td><b>Advance Requirements</b></td>
+  </tr>
+   <tr>
+    <td>GIT HUB</td>
+    <td>
+          <select id="githubD">
+  
+  <option value="0">0</option>
+  <option value="10">10</option>
+  <option value="20">20</option>
+  <option value="30">30</option>
+  <option value="40">40</option>
+
+  
+</select> 
+Days
+</td>
+  </tr>
+   <tr>
+    <td>Number Of Projects</td>
+    <td>
+          <select id="ProjectsN">
+  
+  <option value="1">1</option>
+  <option value="5">5</option>
+  <option value="10">10</option>
+  <option value="20">20</option>
+  <option value="30">30</option>
+
+  
+</select> 
+Projects
+</td>
+  </tr>
+</table>
+<button id="btnPush" class="button">Git Push</button>
+ </div>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="signup.js"></script>
+<script type="text/javascript" src="deposite.js"></script>
+
+
+</body>
+</html>
+

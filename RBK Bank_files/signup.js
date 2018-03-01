@@ -1,8 +1,6 @@
 
  
  var count=accountNum();
-
-
  var makeAccount = function (firstName,midName,lastName,pass,accountType,Num)
  {  var instance={};
  	 instance.balance =0 ,
@@ -38,4 +36,3 @@ $('#btnsub').click(function(){
 	Accounts.push(account);
 	$('#an').val(count)
 })
-
